@@ -9,7 +9,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         Deck deck = new Deck();
 
-        System.out.println("Please give the no of hands you want(Not mor then 5 and not less then 2):");
+        System.out.println("Please give the number of hands you want(Not more then 5 and not less then 2):");
         int hand = scanner.nextInt();
         if (hand >= 2 && hand <= 5) {
             List<List<String>> hands = deck.deal(hand);
